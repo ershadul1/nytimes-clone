@@ -2,5 +2,26 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;   
+    font-family: Helvetica, sans-serif;
 }
+
+.header {
+    
+
+}
+
+.navbar {
+    display: flex;
+
+}
+.navbar-content-left {
+    height: 50px;
+    display: flex;
+    justify-content: left;
+}
+
+.menu-icon {
+    height: 20px;
+    margin-right: 10px;
+}
+
