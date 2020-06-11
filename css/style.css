@@ -90,3 +90,14 @@
     color: #8c6666;
     width: 75%;
 }
+.writer-name, a {
+    font-size: 13px;
+    color: black;
+    
+}
+.main-article {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 35px;
+
+}
