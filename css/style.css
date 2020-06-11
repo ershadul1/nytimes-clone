@@ -91,16 +91,42 @@
     width: 75%;
 }
 .writer-name, a {
-    font-size: 13px;
+    font-size: 15px;
     color: black;
     
 }
 .main-article {
     margin: 0 auto;
-    width: 50%;
+    width: 800px;
     margin-top: 35px;
 
 }
+.date-socials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.date {
+    width: 20%;
+}
 .socials {
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
     
+}
+
+.icon-design {
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #eeeeee;
+}
+
+.icon-size {
+    padding: 10px;
+    width: 40px;
+    height: 40px;
 }
