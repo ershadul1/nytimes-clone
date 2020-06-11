@@ -12,6 +12,7 @@
 
 .navbar {
     display: flex;
+    justify-content: space-around;
 
 }
 .navbar-content-left {
@@ -26,5 +27,7 @@
 }
 .nytimes-logo {
     height: 50px;
-    
 }
+.navbar-content-right {
+    height: 20px;
+    display: flex;
