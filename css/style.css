@@ -1,35 +1,28 @@
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: Helvetica, sans-serif;
 }
-
-.right-margin {
-  margin-right: 20px;
-}
-
-.header {
-  width: 100%;
-  height: 60px;
-  background-color: white;
-}
-
 .navbar {
-  display: flex;
   width: 100%;
-  justify-content: space-around;
+  height: 50px;
+}
+
+.navbar-content {
+  display: flex;
   position: fixed;
+  justify-content: space-around;
   border-bottom: 1px solid lightgrey;
   align-items: center;
   padding-top: 10px;
   background-color: white;
+  width: 100%;
 }
 
 .navbar-content-left {
-  height: 40px;
   display: flex;
+  height: 40px;
 }
 
 .menu-icon {
@@ -63,22 +56,32 @@
   border: none;
 }
 
+.right-margin {
+  margin-right: 20px;
+}
 .main {
-  height: 2000px;
-  width: 100%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.center {
+  margin: 0 auto;
 }
 
 .article {
-  width: 60%;
-  margin: 0 auto;
   margin-top: 70px;
+  width: 100%;
 }
 
+.narrow-display {
+  width: 40%;
+  margin: 0 auto;
+}
 .article-header {
   font-size: 40px;
   width: 60%;
-  margin: 0 auto;
   margin-bottom: 30px;
+ 
 }
 
 .big-image {
@@ -95,12 +98,6 @@
 a {
   font-size: 15px;
   color: black;
-}
-
-.main-article {
-  margin: 0 auto;
-  width: 50%;
-  margin-top: 35px;
 }
 
 .date-socials {
@@ -133,10 +130,6 @@ a {
   height: 40px;
 }
 
-.article-content {
-  position: relative;
-  }
-
 .article-part1 p,
 .article-part2 p,
 .article-part3 p {
@@ -146,7 +139,7 @@ a {
 
 .unlock {
   text-align: center;
-  clear: right;
+  
 }
 
 .unlock a {
@@ -161,13 +154,12 @@ a {
 }
 
 .editor {
-  width: 200px;
-  position: absolute;
-  left: 750px;
-  
+  width: 300px;
+  float: right; 
 }
 
 .editor-picks {
+  width: 55%;
   border-bottom: 1px solid lightgray;
   margin-bottom: 10px;
 }
@@ -189,23 +181,56 @@ a {
   font-size: 12px;
 }
 
+.inflation {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
 .grid-image {
   display: grid;
-  width: 90%;
-  height: 650px;
+  width: 100%;
+  margin: 0 auto;
+  height: 800px;
   background-image: url(/assets/img/inflation.png);
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  border: 1px solid black;
+  gap: 5px;
 
 }
 
 .grid-box-style {
-  padding-top: 160px;
+  padding-top: 200px;
   font-size: 12px;
-  border: 1px solid black;
 
 }
 
+.telescope {
+  width: 100%;
+}
+
+.article-bottom p,
+.article-bottom a {
+  font-size: 15px;
+  color: #6a7dad;
+}
+
+.comments-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.read-comments-btn {
+  cursor: pointer;
+  background-color: #567b95;
+  height: 45px;
+  width: 350px;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
