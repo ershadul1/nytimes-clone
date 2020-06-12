@@ -98,7 +98,7 @@ a {
 
 .main-article {
   margin: 0 auto;
-  width: 60%;
+  width: 50%;
   margin-top: 35px;
 }
 
@@ -135,7 +135,8 @@ a {
 .article-content {
   position: relative;
 }
-.article-part1 p {
+
+.paragraph-style {
   margin-top: 40px;
   font-size: 25px;
 }
@@ -183,4 +184,24 @@ a {
 .editor-link {
   margin-top: 10px;
   font-size: 12px;
+}
+
+.grid-image {
+  display: grid;
+  width: 90%;
+  height: 650px;
+  background-image: url(/assets/img/inflation.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border: 1px solid black;
+
+}
+
+.grid-box-style {
+  padding-top: 160px;
+  font-size: 12px;
+  border: 1px solid black;
+
 }
