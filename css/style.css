@@ -132,7 +132,55 @@ a {
   height: 40px;
 }
 
-.whole-article p {
+.article-content {
+  position: relative;
+}
+.article-part1 p {
   margin-top: 40px;
   font-size: 25px;
+}
+
+.unlock {
+  text-align: center;
+  clear: right;
+}
+
+.unlock a {
+  text-decoration: none;
+  color: #457194;
+  font-weight: 700;
+}
+
+.underline {
+  color: lightgray;
+  margin-bottom: 10px;
+}
+
+.editor {
+  width: 200px;
+  position: absolute;
+  left: 750px;
+  
+}
+
+.editor-picks {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.editor-pic {
+  width: 100px;
+  height: 100px;
+  padding: 10px 10px 10px 0px;
+}
+
+.editor-box {
+  display: flex;
+  width: 200px;
+  margin-top: 10px;
+}
+
+.editor-link {
+  margin-top: 10px;
+  font-size: 12px;
 }
