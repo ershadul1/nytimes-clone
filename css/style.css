@@ -137,7 +137,9 @@ a {
   position: relative;
   }
 
-.paragraph-style {
+.article-part1 p,
+.article-part2 p,
+.article-part3 p {
   margin-top: 40px;
   font-size: 25px;
 }
@@ -206,3 +208,4 @@ a {
   border: 1px solid black;
 
 }
+
