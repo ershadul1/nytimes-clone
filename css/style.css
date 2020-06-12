@@ -226,7 +226,7 @@ a {
   cursor: pointer;
   background-color: #567b95;
   height: 45px;
-  width: 350px;
+  width: 100%;
   font-size: 20px;
   font-weight: 500;
   color: white;
@@ -234,3 +234,13 @@ a {
   border: none;
   padding: 10px 20px 10px 20px;
 }
+  .article-suggestions {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  border: 1px solid black;
+  grid-template-rows: 50% 50%;
+  }
+  .bottom-img {
+    width: 350px
+
+  }
