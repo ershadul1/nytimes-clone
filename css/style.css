@@ -67,6 +67,7 @@
 }
 
 .center {
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -75,6 +76,9 @@
   width: 100%;
 }
 
+.main-article {
+  margin-top: 40px;
+}
 .narrow-display {
   width: 40%;
   margin: 0 auto;
@@ -83,7 +87,7 @@
 .article-header {
   font-size: 40px;
   width: 60%;
-  margin-bottom: 30px;
+  margin: 0 auto;
 }
 
 .big-image {
@@ -92,8 +96,9 @@
 
 .fig-caption {
   font-size: 13px;
-  color: #8c6666;
+  color: #666666;
   width: 75%;
+  margin-top: -10px;
 }
 
 .writer-name,
@@ -124,6 +129,11 @@ a {
   height: 40px;
   border-radius: 50%;
   background-color: #eee;
+}
+
+.icon-design:hover {
+  background-color: white;
+  border: 1px solid lightgray;
 }
 
 .icon-size {
@@ -198,11 +208,11 @@ a {
   background-repeat: no-repeat;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(2, 1fr);
-  gap: 5px;
+  grid-gap: 10px;
 }
 
 .grid-box-style {
-  padding-top: 200px;
+  padding-top: 170px;
   font-size: 12px;
 }
 
@@ -237,20 +247,25 @@ a {
 
 .grid-more-article {
   display: grid;
+  width: 85%;
   grid-template-columns: 3fr 1fr;
-  border: 1px solid black;
+  border: 1px soid black;
+  margin: 0 auto;
+  
 }
 
 .grid-left {
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
-  border: 1px solid black;
-}
-
-.grid-box {
-  width: 350px;
 }
 
 .bottom-img {
-  width: 350px;
+  width: 300px;
+  height: 200px;
+}
+
+.grid-box {
+  width: 300px;
+  height: 300px;
 }
