@@ -1,6 +1,4 @@
-# Project Name
-
-> Newyork Times Article Clone
+# Newyork Times Article Clone
 
 ![screenshot](assets/img/screenshot-nytclone.png)
 
