@@ -289,7 +289,7 @@ a {
 
 .grid-right {
   border-top: 1px solid black;
-  width: 70%;
+  width: 80%;
   grid-column: 2;
   grid-row: 1 / 3;
 }
@@ -320,7 +320,7 @@ a {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 50px 1fr 50px;
-  
+  margin-bottom: 100px;
 }
 
 .nyt-logo2-container {
@@ -343,7 +343,6 @@ a {
 }
 .footer-list {
   list-style-type: none;
-  margin
 }
 
 .footer-list > li > a {
@@ -359,7 +358,7 @@ a {
   height: 15px;
 }
 
-.subscribe {
+.footer-subscribe {
   border-left: 1px solid lightgray;
 }
 
@@ -375,10 +374,32 @@ a {
   border-top: 1px solid lightgray;
 }
 
-.footer-links{
+.footer-links {
   grid-column: 1 / 7;
   grid-row: 3;
-  list-style-type: none;
+  border-top: 1px solid lightgrey;
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.footer-links-container {
   display: flex;
   justify-content: space-around;
+  list-style-type: none;
+}
+
+.footer-links-container a {
+  text-decoration: none;
+  font-size: 10px;
+}
+
+.covid-news {
+  position: fixed;
+  bottom: 0vh;
+  height: 60px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
 }
