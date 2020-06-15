@@ -79,6 +79,7 @@
 .main-article {
   margin-top: 40px;
 }
+
 .narrow-display {
   width: 40%;
   margin: 0 auto;
@@ -96,7 +97,7 @@
 
 .fig-caption {
   font-size: 13px;
-  color: #666666;
+  color: #666;
   width: 75%;
   margin-top: -10px;
 }
@@ -273,6 +274,7 @@ a {
   text-decoration: none;
   font-size: 22px;
 }
+
 .bottom-img {
   width: 300px;
   height: 200px;
@@ -301,7 +303,7 @@ a {
 
 .grid-list-style a {
   font-weight: 500;
-  text-decoration: none ;
+  text-decoration: none;
   font-size: 20px;
 }
 
@@ -341,8 +343,20 @@ a {
   margin-top: 10px;
   text-decoration: none;
 }
+
 .footer-list {
   list-style-type: none;
+}
+
+.footer-links-container {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.footer-links-container a {
+  text-decoration: none;
+  font-size: 10px;
 }
 
 .footer-list > li > a {
@@ -369,6 +383,7 @@ a {
 .bottom-margin {
   margin-bottom: 10px;
 }
+
 .mobile {
   margin-top: 10px;
   border-top: 1px solid lightgray;
@@ -383,23 +398,13 @@ a {
   margin-top: 20px;
 }
 
-.footer-links-container {
-  display: flex;
-  justify-content: space-around;
-  list-style-type: none;
-}
-
-.footer-links-container a {
-  text-decoration: none;
-  font-size: 10px;
-}
-
 .covid-news {
   position: fixed;
-  bottom: 0vh;
-  height: 60px;
+  bottom: 0;
+  height: 40px;
   width: 100%;
-  border: 1px solid black;
+  font-size: 15px;
+  border-top: 1px solid black;
   text-align: center;
   background-color: white;
 }
