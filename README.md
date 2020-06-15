@@ -2,7 +2,7 @@
 
 > Newyork Times Article Clone
 
-![screenshot](assets/img/screenshot.png)
+![screenshot](assets/img/screenshot-nytclone.png)
 
 Additional description about the project and its features.
 
