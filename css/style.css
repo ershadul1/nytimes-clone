@@ -320,6 +320,7 @@ a {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: 50px 1fr 50px;
+  
 }
 
 .nyt-logo2-container {
@@ -372,4 +373,12 @@ a {
 .mobile {
   margin-top: 10px;
   border-top: 1px solid lightgray;
+}
+
+.footer-links{
+  grid-column: 1 / 7;
+  grid-row: 3;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
 }
