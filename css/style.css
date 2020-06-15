@@ -311,3 +311,65 @@ a {
   width: 90%;
   border-top: 1px solid black;
 }
+
+.footer {
+  width: 80%;
+  border-top: 5px double lightgray;
+  margin: 0 auto;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: 50px 1fr 50px;
+}
+
+.nyt-logo2-container {
+  width: 100%;
+  grid-column: 1 / 7;
+  grid-row: 1;
+}
+
+.nyt-logo2 {
+  height: 50px;
+  margin-left: -18px;
+}
+
+.goto-home {
+  float: right;
+  font-size: 10px;
+  color: #457194;
+  margin-top: 10px;
+  text-decoration: none;
+}
+.footer-list {
+  list-style-type: none;
+  margin
+}
+
+.footer-list > li > a {
+  text-decoration: none;
+}
+
+.footer-list > li > a:hover {
+  text-decoration: underline;
+}
+
+.footer-icons {
+  width: 15px;
+  height: 15px;
+}
+
+.subscribe {
+  border-left: 1px solid lightgray;
+}
+
+.left-margin {
+  margin-left: 15px;
+}
+
+.bottom-margin {
+  margin-bottom: 10px;
+}
+.mobile {
+  margin-top: 10px;
+  border-top: 1px solid lightgray;
+}
