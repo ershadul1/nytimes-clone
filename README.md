@@ -1,20 +1,19 @@
 # Project Name
 
-> One paragraph statement about the project.
+> Newyork Times Article Clone
 
-![screenshot](assets/app_screenshot.jpg)
+![screenshot](assets/img/screenshot.png)
 
 Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://eager-yalow-5396ee.netlify.app)
 
 
 ## Getting Started
@@ -43,15 +42,15 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/ershadul1)
+- Twitter: [@twitterhandle](https://twitter.com/ErshadulRayhan)
+- Linkedin: [linkedin](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
 
 👤 **Author2**
 
-- Github: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- Linkedin: [linkedin](https://linkedin.com/linkedinhandle)
+- Github: [@githubhandle](https://github.com/Haywhizzz )
+- Twitter: [@twitterhandle](https://twitter.com/Haywhizzz)
+- Linkedin: [linkedin](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
 
 ## 🤝 Contributing
 
