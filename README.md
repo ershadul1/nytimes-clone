@@ -2,7 +2,9 @@
 
 ![screenshot](assets/img/screenshot-nytclone.png)
 
-Additional description about the project and its features.
+
+This page is a clone of newyork times article. In this project we applied float,
+ flexbox, grid and position.
 
 ## Built With
 
@@ -16,24 +18,12 @@ Additional description about the project and its features.
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+**To visit the page go to the live demo link**
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+1. An internet browser
+2. A computer
 
 
 ## Authors
@@ -54,7 +44,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/ershadul1/nytimes-clone/issues).
 
 ## Show your support
 
@@ -62,9 +52,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+Thanks to newyork times for inspiring us.
 
 ## 📝 License
 
