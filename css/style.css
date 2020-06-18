@@ -2,12 +2,17 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Helvetica, sans-serif;
+  font-family: georgia, 'times new roman', times, serif;
+}
+
+body {
+  min-width: 1200px;
 }
 
 .navbar {
   width: 100%;
   height: 50px;
+  min-width: 1000px;
 }
 
 .navbar-content {
@@ -16,13 +21,14 @@
   justify-content: space-around;
   border-bottom: 1px solid lightgrey;
   align-items: center;
-  padding-top: 10px;
   background-color: white;
   width: 100%;
 }
 
 .navbar-content-left {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   height: 40px;
 }
 
@@ -38,6 +44,8 @@
 .navbar-content-right {
   height: 40px;
   display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .subscribe {
@@ -67,7 +75,7 @@
 }
 
 .center {
-  width: 70%;
+  width: 60%;
   margin: 0 auto;
 }
 
@@ -81,13 +89,14 @@
 }
 
 .narrow-display {
-  width: 40%;
+  width: 35%;
   margin: 0 auto;
+  min-width: 600px;
 }
 
 .article-header {
   font-size: 40px;
-  width: 60%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -120,7 +129,7 @@ a {
 }
 
 .socials {
-  width: 40%;
+  width: 55%;
   display: flex;
   justify-content: space-around;
 }
@@ -148,6 +157,7 @@ a {
 .article-part3 p {
   margin-top: 40px;
   font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .unlock {
@@ -194,27 +204,32 @@ a {
 }
 
 .inflation {
-  width: 70%;
+  width: 1000px;
   margin: 0 auto;
   margin-top: 100px;
 }
 
 .grid-image {
   display: grid;
-  width: 100%;
+  width: 1000px;
   margin: 0 auto;
-  height: 800px;
+  height: 700px;
   background-image: url(/assets/img/inflation.png);
   background-size: 100%;
   background-repeat: no-repeat;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: 280px 280px;
   grid-gap: 10px;
+  grid-row-gap: 20px;
 }
 
 .grid-box-style {
-  padding-top: 170px;
+  padding-top: 180px;
   font-size: 12px;
+}
+
+.video {
+  margin: 0 auto;
 }
 
 .telescope {
@@ -249,6 +264,7 @@ a {
 .grid-more-article {
   display: grid;
   width: 80%;
+  min-width: 1000px;
   grid-template-columns: 3fr 1fr;
   grid-template-rows: 2fr 1fr;
   margin: 0 auto;
@@ -321,6 +337,7 @@ a {
 
 .footer {
   width: 80%;
+  min-width: 1000px;
   border-top: 5px double lightgray;
   margin: 0 auto;
   margin-top: 40px;
@@ -408,8 +425,16 @@ a {
   bottom: 0;
   height: 40px;
   width: 100%;
-  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-top: 1px solid black;
-  text-align: center;
   background-color: white;
+}
+
+.covid-news > pre {
+  min-width: 1000px;
+  margin: 0 auto;
+  font-size: 15px;
+  text-align: center;
 }
