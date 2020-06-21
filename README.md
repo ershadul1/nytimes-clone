@@ -28,17 +28,20 @@ This page is a clone of newyork times article. In this project we applied float,
 
 ## Authors
 
-👤 **Author1**
+👤 Ershadul Hakim Rayhan
 
-- Github: [@githubhandle](https://github.com/ershadul1)
-- Twitter: [@twitterhandle](https://twitter.com/ErshadulRayhan)
-- Linkedin: [linkedin](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
+- Github: [@ershadul1](https://github.com/ershadul1)
+- Twitter: [@ErshadulRayhan](https://twitter.com/ErshadulRayhan)
+- Linkedin: [ErshadulRayhan](https://www.linkedin.com/in/ershadul-hakim-rayhan-a5a17649/)
+- Email: ershadul.rayhan@gmail.com
 
-👤 **Author2**
+👤 Oyeleke Ayomide
 
-- Github: [@githubhandle](https://github.com/Haywhizzz )
-- Twitter: [@twitterhandle](https://twitter.com/Haywhizzz)
-- Linkedin: [linkedin](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
+- Github: [@Haywhizzz](https://github.com/Haywhizzz )
+- Twitter: [@Haywhizzz](https://twitter.com/Haywhizzz)
+- Linkedin: [Haywhizzz](https://www.linkedin.com/in/oyeleke-ayomide-b962421a6/)
+- Email: haywhizzz@gmail.com
+
 
 ## 🤝 Contributing
 
